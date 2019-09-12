@@ -5,6 +5,6 @@
     <view class="label">
     <text>福特派互联</text>
     </view>
-    <button class="button">下 载</button>
+    <button class="button">下载</button>
   </view>
 </template>
