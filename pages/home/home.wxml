@@ -1,0 +1,10 @@
+<import src="../posts/download/download.wxml" />
+<view class="userinfo">
+  <template is="download" />
+  <view class="card">
+    <view class="welcome">
+    <text>欢迎来到福特</text>
+    <image src="../../resources/ic_fp_logo.webp"></image>
+    </view>
+  </view>
+</view>

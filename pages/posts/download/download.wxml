@@ -1,0 +1,10 @@
+<!--  各个界面顶部下载app的view -->
+<template name="download">
+  <view class="back">
+    <image class="icon" src="../../resources/ic_launcher.png"></image>
+    <view class="label">
+    <text>福特派互联</text>
+    </view>
+    <button class="button">下 载</button>
+  </view>
+</template>
