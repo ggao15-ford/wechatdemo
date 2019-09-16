@@ -1,0 +1,43 @@
+/* pages/components/drawer/drawer.wxss */
+
+.drawer {
+  position: absolute;
+  left: 55%;
+  right: 100%;
+  width: 45%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.5);
+  
+}
+.openDrawer{
+animation-delay: 500ms;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-name: drawer_in;
+  animation-fill-mode: forwards;
+}
+.closeDrawer{
+animation-delay: 500ms;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-name: drawer_out;
+  animation-fill-mode: forwards;
+}
+@keyframes drawer_in {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 55%;
+  }
+}
+@keyframes drawer_out {
+  from {
+    left: 55%;
+  }
+
+  to {
+    left: 100%;
+  }
+}

@@ -1,8 +1,3 @@
 {
-  "component": true,
-  "usingComponents": {
-    "home": "../home/home",
-    "mine": "../home/home"
-  },
   "navigationBarTitleText": "福特派互联"
 }

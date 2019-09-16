@@ -1,0 +1,7 @@
+<!--pages/components/drawer/drawer.wxml-->
+<!-- <cover-view hidden="{{!isShow}}" class="drawer {{isEnter?'openDrawer':'closeDrawer'}}"> -->
+<cover-view hidden="{{!isShow}}" class="drawer"> 
+  <button>1111</button>
+  <button>1111</button>
+  <button>1111</button>
+</cover-view>

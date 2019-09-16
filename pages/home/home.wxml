@@ -1,17 +1,13 @@
-<import src="../posts/download/download.wxml" />
+<import src="../templates/download/download.wxml" />
 <view class="root">
   <view class="child_class">
     <template is="download" />
     <view class="card">
       <view class="welcome">
         <text>欢迎来到福特</text>
-        <image src="../../resources/ic_fp_logo.webp"></image>
+        <image src="../../resources/ic_launcher.png" bindtap="clickPic" ></image>
       </view>
     </view>
   </view>
-  <cover-view class="drawer">
-    <text>11111</text>
-    <text>11111</text>
-    <text>11111</text>
-  </cover-view>
+  <drawer isShow="{{showDrawer}}"></drawer>
 </view>
